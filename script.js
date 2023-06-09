@@ -99,3 +99,10 @@ addButton.addEventListener('click', () => {
   currentPage++;
   fetchMovies(currentPage);
 });
+
+const policy = document.getElementById('policy');
+policy.addEventListener('click',()=>{
+  const privacyContent = document.createElement(p);
+privacyContent.textContent = "Usage Data: When you access the Service by or through a mobile device, we may collect certain information automatically, including, but not limited to, the type of mobile device you use, the IP address of your mobile device, your mobile operating system, unique device identifiers and other diagnostic data.";
+  document.body.appendChild(privacyContent);
+});
