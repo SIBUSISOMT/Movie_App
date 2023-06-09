@@ -201,7 +201,7 @@ height: 30px;
 width: 30px;
 cursor: pointer;
 }
-button{
+#button{
     background-color: rgb(5, 26, 53);
     color: rgb(90, 7, 7);
     border-radius: 0.5rem;
