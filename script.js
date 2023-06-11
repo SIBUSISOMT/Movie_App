@@ -100,7 +100,6 @@ addButton.addEventListener('click', () => {
   fetchMovies(currentPage);
 });
 
-
 const select = document.getElementById('select');
 
 function changeTheme(){
