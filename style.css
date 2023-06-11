@@ -23,6 +23,13 @@ body{
         color: rgb(218, 98, 98); 
         flex-direction: column;
  }
+ .lightMode{
+    background-color: beige;
+    color: black;
+ }
+ #select{
+    cursor: pointer;
+ }
  footer{
     display: flex;
     width: 100%;
